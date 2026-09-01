@@ -1,5 +1,7 @@
 class ApiServices {
-  static const String baseURL = 'http://10.16.232.124:8000/api/';
+  // static const String baseURL = 'http://10.16.232.124:8000/api/';
+  static const String baseURL = 'http://10.214.206.117:8000/api/';
+
   static const String imageURL = "http://10.16.232.124:8000/";
 
   static const String uploadImgApi = '${baseURL}photos/upload';

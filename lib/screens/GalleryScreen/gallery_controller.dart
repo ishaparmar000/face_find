@@ -91,7 +91,7 @@ class GalleryController extends GetxController {
     NetworkFunctions.apiRequest(
       url: ApiServices.deleteApi,
       isShowLoader: true,
-      body: {'id': id},
+      body: {'photo_id': id},
     ).then((response) {
       if (response != null) {
         if (response['status'] == true) {
